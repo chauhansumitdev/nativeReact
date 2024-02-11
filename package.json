@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "expo-cli": "^6.3.10"
+  },
+  "dependencies": {
+    "metro-core": "^0.80.5"
   }
 }

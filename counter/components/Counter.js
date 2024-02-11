@@ -14,7 +14,7 @@ const Counter = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.counterText}>{count}</Text>
+      <Text style={styles.text}>Counter: {count}</Text>
       <View style={styles.buttonContainer}>
         <Button title="Increment" onPress={increment} />
         <Button title="Decrement" onPress={decrement} />
@@ -29,13 +29,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  counterText: {
-    fontSize: 48,
-    fontWeight: 'bold',
+  text: {
+    fontSize: 24,
+    marginBottom: 20,
   },
   buttonContainer: {
     flexDirection: 'row',
-    marginTop: 20,
   },
 });
 
